@@ -1,0 +1,4 @@
+﻿Identifier;Competency Question / Fact
+CTT-1;Projects, elements, images, point clouds and meshes are construction twin things
+CTT-2;A construction twin thing can have forms referring to a knowledge graph, a value in the graph and a file storage
+CTT-3;A construction twin thing can have links referring to a description thing, an IFC file, a schedule file, a point cloud file and a mesh file
