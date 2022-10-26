@@ -1,4 +1,5 @@
 ﻿Identifier;Competency Question / Fact
-CTT-1;Projects, elements, images, point clouds and meshes are construction twin things
-CTT-2;A construction twin thing can have forms referring to a knowledge graph, a value in the graph and a file storage
-CTT-3;A construction twin thing can have links referring to a description thing, an IFC file, a schedule file, a point cloud file and a mesh file
+PLAT-1 ;Projects and, elements, are digital twins taken into account by the platform
+PLAT-2;Images, point clouds, and meshes are information resources taken into account by the platform 
+PLAT-3;A platform entity can have forms referring to a knowledge graph, a value in the graph, and a file storage
+PLAT-4;A platform entity can have links referring to an IFC file, a schedule file, a point cloud file, a mesh file and a description of another platform entity
