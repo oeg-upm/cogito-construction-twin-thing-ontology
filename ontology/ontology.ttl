@@ -141,13 +141,13 @@ facility:Project rdf:type owl:Class ;
 
 ###  https://cogito.iot.linkeddata.es/platform#DigitalTwin
 :DigitalTwin rdf:type owl:Class ;
-             rdfs:subClassOf :PlanformThing ;
+             rdfs:subClassOf :PlatformThing ;
              rdfs:comment "Entity that is a digital twin in the platform" ;
              rdfs:label "Digital Twin" .
 
 
-###  https://cogito.iot.linkeddata.es/platform#PlanformThing
-:PlanformThing rdf:type owl:Class ;
+###  https://cogito.iot.linkeddata.es/platform#PlatformThing
+:PlatformThing rdf:type owl:Class ;
                rdfs:subClassOf <https://www.w3.org/2019/wot/td#Thing> ;
                rdfs:comment "An entity that is a td:thing (entity whose metadata and interfaces are described by a WoT Thing Description) in the platform" ;
                rdfs:label "Platform Thing" .
@@ -155,7 +155,7 @@ facility:Project rdf:type owl:Class ;
 
 ###  https://cogito.iot.linkeddata.es/quality#InformationResource
 qual:InformationResource rdf:type owl:Class ;
-                         rdfs:subClassOf :PlanformThing ;
+                         rdfs:subClassOf :PlatformThing ;
                          rdfs:comment "Data regarding  the quality of an entity (especially a facility:Project or facility:Element) and that may have associated files in the platform" ;
                          rdfs:label "Information Resource" .
 
